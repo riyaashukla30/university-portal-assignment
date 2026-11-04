@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body { margin: 0; background: #f8fafc; color: #0f172a; font-family: system-ui, sans-serif; }
+button, a, select { touch-action: manipulation; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .5; }
+button, input, select { font: inherit; }
+:focus-visible { outline: 3px solid #2563eb; outline-offset: 3px; }
+.panel { border: 1px solid #e2e8f0; border-radius: 12px; background: white; padding: 24px; }
+.button { display: inline-block; border: 1px solid #cbd5e1; border-radius: 6px; padding: 8px 12px; background: white; }
