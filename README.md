@@ -31,13 +31,7 @@ Both dev and preview include a local mock API. `dist/` alone does not host that 
 - `API_CONTRACT.md`: university mock contract and scenario switches
 - `tests/`: mock API smoke tests, **not** tests of your dashboard
 
-There is no university dashboard implementation. The university mock endpoint is already supplied so your time goes into understanding and extending the frontend, not building a fake backend.
 
-## Ground rules
 
-- JavaScript + JSX only; no TypeScript migration, redesign or broad refactor.
-- No new dependencies. Use the supplied stack.
-- Do not fix all legacy issues. Explain unrelated issues in your notes.
-- Do not include `node_modules/`, `dist/`, cookies, personal data or credentials in your submission.
-- You may use documentation or AI tools. Disclose their use briefly and be prepared to explain and change every submitted line during a short walkthrough. Tool use itself is not penalised.
-- This is a hiring exercise, not unpaid production work. No production integration is expected.
+
+
